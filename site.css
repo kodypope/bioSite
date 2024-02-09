@@ -1,3 +1,12 @@
-body {
+#landing {
     background-color: mediumpurple;
+}
+
+#about {
+    background-color: moccasin;
+}
+
+#hobbies {
+    background-color: dodgerblue;
+    opacity: 0.6;
 }
