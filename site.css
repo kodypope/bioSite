@@ -2,11 +2,43 @@
     background-color: mediumpurple;
 }
 
+#landing h1 {
+    text-align: center;
+    color: cyan;
+}
+
+#landing a {
+    color: #00FF40;
+}
+
+#navbar {
+
+}
+
+
+/* change img later */
+img {
+    height: 600px;
+    object-fit: cover;
+}
+
+.image1 {
+    color: #FFD700;
+}
+
+.box1 {
+    background-color: white;
+    color: magenta;
+}
+
 #about {
     background-color: moccasin;
 }
 
 #hobbies {
     background-color: dodgerblue;
-    opacity: 0.6;
+}
+
+#qa {
+    background-color: #EDEADE;
 }
