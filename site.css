@@ -1,25 +1,129 @@
 #landing {
     background-color: mediumpurple;
+    font-family: 'Lato';
 }
 
-#landing h1 {
+h1 {
     text-align: center;
     color: cyan;
+    font-family: 'Lato';
+}
+
+a {
+    font-family: 'Lato';
+    text-align: center;
+}
+
+p {
+    font-family: 'Lato';
+    margin: 15px;
+}
+
+p.indent {
+    text-indent: 45px;
+}
+
+figcaption {
+    font-family: 'Lato';
+    text-align: center;
+}
+
+/* .fig1 {
+    color: #00FF40;
+} */
+
+#landing figcaption {
+    color: #ffff00fa;
+
 }
 
 #landing a {
     color: #00FF40;
 }
 
-#navbar {
+#landing #navbar {
+    background-color: #7eafd3;
+    text-align: center;
+    margin: auto;
+    display: flex;
+}
 
+#landing #navbar a {
+    color: #FFFF00;
+    text-decoration: none;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    text-align: center;
+    margin: auto;
+}
+
+.float-container {
+    /* border: 3px solid #fff;
+    padding: 20px; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* grid-gap: 20px; */
+}
+
+.colum1 {
+    /* width: 50%;
+    float: left;
+    border: 2px solid red; */
+}  
+
+.colum2 {
+    /* float: right;
+    width: 50%;
+    border: 2px solid red; */
+}
+.colum3 {
+    float: right;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+
+/* #landing .colum1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+} */
+
+#navbar {
+    width: 100%; /* Full-width */
+    overflow: auto; /* Overflow due to float */
+    font-family: 'Roboto', sans-serif;
+}
+  
+#navbar a {
+    float: left; /* Float links side by side */
+    text-align: center; /* Center-align text */
+    width: 20%; /* Equal width (5 icons with 20% width each = 100%) */
+    padding: 12px 0; /* Some top and bottom padding */
+    transition: all 0.3s ease; /* Add transition for hover effects */
+    font-size: 36px; /* Increased font size */
+    font-family: 'Roboto', sans-serif;
+}
+  
+#navbar a:hover {
+    background-color: #000; /* Add a hover color */
+}
+  
+#navbar a.active {
+       background-color: #04AA6D; /* Add an active/current color */
 }
 
 
 /* change img later */
 img {
-    height: 600px;
+    height: 400px;
     object-fit: cover;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* width: 40%; */
 }
 
 .image1 {
@@ -27,18 +131,131 @@ img {
 }
 
 .box1 {
-    background-color: white;
-    color: magenta;
+    background-color: #7332f7de;
+    color: cyan;
 }
 
 #about {
     background-color: moccasin;
 }
 
+#about figcaption {
+    color: blue;
+
+}
+
+#about a {
+    color: blue;
+}
+
+#about #navbar {
+    background-color: #20be74;
+    text-align: center;
+    margin: auto;
+    display: flex;
+}
+
+#about #navbar a {
+    color: #1071f1;
+    text-decoration: none;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    text-align: center;
+    margin: auto;
+}
+
 #hobbies {
     background-color: dodgerblue;
 }
 
+#hobbies .float-container {
+    /* border: 3px solid #fff;
+    padding: 20px; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* grid-gap: 20px; */
+}
+
+#hobbies figcaption {
+    color: yellow;
+
+}
+
+#hobbies a {
+    color: blue;
+}
+
+#hobbies #navbar {
+    background-color: yellow;
+    text-align: center;
+    margin: auto;
+    display: flex;
+}
+
+#hobbies #navbar a {
+    color: purple;
+    text-decoration: none;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    text-align: center;
+    margin: auto;
+}
+
+#hobbies h3 {
+    text-align: center;
+    color: yellow;
+}
+
+#hobbies .box2 {
+    background-color: white;
+    margin: 15px;
+}
+
+#hobbies p {
+    color: #008080;
+    margin: 15px;
+}
+
+#about .box2 {
+    background-color: #F8F8FF;
+    margin: 15px;
+}
+
 #qa {
     background-color: #EDEADE;
+}
+
+#qa .float-container {
+    /* border: 3px solid #fff;
+    padding: 20px; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* grid-gap: 20px; */
+}
+
+#qa figcaption {
+    color: blue;
+
+}
+
+#qa a {
+    color: blue;
+}
+
+#qa #navbar {
+    background-color: #17c172;
+    text-align: center;
+    margin: auto;
+    display: flex;
+}
+
+#qa #navbar a {
+    color: #B22222;
+    text-decoration: none;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    text-align: center;
+    margin: auto;
+}
+
+footer {
+    position: relative;
+    text-align: center;
 }
