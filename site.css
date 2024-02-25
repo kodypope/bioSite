@@ -5,7 +5,6 @@
 
 h1 {
     text-align: center;
-    color: cyan;
     font-family: Silom;
 }
 
@@ -32,6 +31,11 @@ figcaption {
 /* .fig1 {
     color: #00FF40;
 } */
+
+#landing h1 {
+    background-color: #FFFF00;
+    color: #78b3dd;
+}
 
 #landing figcaption {
     color: #ffff00fa;
@@ -96,7 +100,7 @@ figcaption {
     overflow: auto; /* Overflow due to float */
     font-family: 'Roboto', sans-serif;
 }
-  
+
 #navbar a {
     float: left; /* Float links side by side */
     text-align: center; /* Center-align text */
@@ -105,11 +109,7 @@ figcaption {
     transition: all 0.3s ease; /* Add transition for hover effects */
     font-size: 36px; /* Increased font size */
 }
-  
-#navbar a:hover {
-    background-color: #000; /* Add a hover color */
-}
-  
+
 #navbar a.active {
        background-color: #04AA6D; /* Add an active/current color */
 }
@@ -130,8 +130,8 @@ img {
 }
 
 .box1 {
-    background-color: #7332f7de;
-    color: cyan;
+    background-color: #FAF9F6;
+    color: black;
     padding: 1%;
 }
 
@@ -154,7 +154,7 @@ img {
 }
 
 #about a {
-    color: blue;
+    color: #127d4b;
 }
 
 #about #navbar {
@@ -171,10 +171,10 @@ img {
     margin: auto;
 }
 
-#hobbies p a:hover {
+/* #hobbies p a:hover {
     background-color: #000;
     color: #02c2c2;
-}
+} */
 
 #hobbies {
     background-color: dodgerblue;
@@ -197,10 +197,14 @@ img {
 
 }
 
-#hobbies a {
+#hobbies p a {
     color: #008080;
     text-decoration: none;
     font-style: italic;
+}
+
+#hobbies a {
+    color: yellow;
 }
 
 #hobbies #navbar {
@@ -243,6 +247,10 @@ img {
     background-color: #EDEADE;
 }
 
+#qa h3 {
+    text-align: center;
+}
+
 #qa .float-container {
     /* border: 3px solid #fff;
     padding: 20px; */
@@ -274,6 +282,25 @@ img {
     margin: auto;
 }
 
+#qa p {
+    padding: 11px;
+}
+
+#qa p a {
+    color: #B22222;
+    text-decoration: none;
+}
+
+#qa a {
+    color: #B22222;
+    text-decoration: underline;
+}
+
+#quest {
+    background-color: #17c172;
+    color: #B22222;
+}
+
 footer {
     position: relative;
     text-align: center;
@@ -281,4 +308,36 @@ footer {
 
 #navbar a {
     font-family: Courier New;
+}
+
+a:hover { 
+    background-color: #000; /* Add a hover color */
+}
+
+/* footer a {
+    text-decoration: none;
+} */
+
+footer a:hover {
+    background-color: #000;
+}
+
+.photoLink a {
+    text-decoration: none;
+    font-style: normal;
+}
+
+/* .photoLink {
+    background-color: #000;
+    padding: 11px;
+}
+
+.outerPhoto {
+    padding: 0% 20% 0% 30%;
+} */
+
+.photoLink img:hover {
+    /* border: 5px solid #555; */
+    outline: 5px solid white;
+    outline-offset: -4px;
 }
