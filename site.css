@@ -3,6 +3,10 @@
     /* font-family: 'Lato'; */
 }
 
+#goals {
+    background-color: #04AA6D;
+}
+
 h1 {
     text-align: center;
     font-family: Silom;
@@ -169,6 +173,67 @@ img {
     text-decoration: none;
     text-align: center;
     margin: auto;
+}
+
+#goals {
+    background-color: #04AA6D;
+}
+
+#goals h1 {
+    color: yellow;
+}
+
+#goals .float-container {
+    /* border: 3px solid #fff;
+    padding: 20px; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* grid-gap: 20px; */
+}
+
+#goals figcaption {
+    color: yellow;
+
+}
+
+#goals p a {
+    color: #008080;
+    text-decoration: none;
+    font-style: italic;
+}
+
+#goals a {
+    color: yellow;
+}
+
+#goals #navbar {
+    background-color: yellow;
+    text-align: center;
+    margin: auto;
+    display: flex;
+}
+
+#goals #navbar a {
+    color: purple;
+    text-decoration: none;
+    text-align: center;
+    margin: auto;
+}
+
+#goals h3 {
+    text-align: center;
+    color: yellow;
+}
+
+#goals .box2 {
+    background-color: white;
+    margin: 15px;
+    padding: 1%;
+}
+
+#goals p {
+    color: black;
+    margin: 15px;
 }
 
 /* #hobbies p a:hover {
